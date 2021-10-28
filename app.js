@@ -1,5 +1,5 @@
 const express = require("express");
-app = express();
+const app = express();
 
 require("dotenv").config();
 
