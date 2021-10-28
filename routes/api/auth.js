@@ -3,6 +3,6 @@ router = express.Router();
 
 auth = require("../../controllers/auth");
 
-router.get("/getToken", auth.getToken);
+router.post("/login", auth.login);
 
 module.exports = router;

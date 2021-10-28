@@ -1,6 +1,6 @@
 var router = require("express").Router();
 
-router.use("/hello", require("./hello"));
 router.use("/auth", require("./auth"));
+router.use("/intent", require("./intent"));
 
 module.exports = router;
