@@ -1,6 +1,5 @@
-const router = require("express").Router();
+const router = require('express').Router();
 
-router.use("/auth", require("./auth"));
-router.use("/intent", require("./intent"));
+router.use('/airwallex', require('./airwallex'));
 
 module.exports = router;
