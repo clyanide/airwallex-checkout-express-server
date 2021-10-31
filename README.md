@@ -17,6 +17,8 @@ Dedicated API for ShoesForYou's sample ecommerce checkout.
 2. `npm install` to install all the required dependencies
 3. `npm run dev` to start the local server
 
+Default Base URL: localhost:4000/api
+
 ## Project Structure
 - `app.js` - The entry point to our application
 - `routes/` - Contains routing endpoints of our API
