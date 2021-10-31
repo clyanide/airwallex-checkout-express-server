@@ -31,8 +31,8 @@ Dedicated API for ShoesForYou's sample ecommerce checkout.
 
 ## Changes For Production
 - Set NODE_ENV to `production`
-- Add production logging (e.g. debug module)
-- Set up response compression
-- Protect against well-known vulnerabilities (e.g. Helmet)
-- Secure the API (e.g. using Auth0 with Passport.js)
+- Add production logging
+- Set up [response compression](http://expressjs.com/en/resources/middleware/compression.html)
+- Protect against well-known vulnerabilities (e.g. [Helmet](https://www.npmjs.com/package/helmet))
+- Secure the API (e.g. using Auth0 with [Passport.js](http://www.passportjs.org/))
 - Get Airwallex API key and Client ID from environment variables instead of client requests
