@@ -15,7 +15,7 @@ Dedicated API for ShoesForYou's sample ecommerce checkout.
 1. Clone this repo and navigate to the root directory
 2. (Optional) Create a `.env` file in the root directory of the project to specify the local port number you want the server to run on (default port number is 4000)
 2. `npm install` to install all the required dependencies
-3. `npm start` to start the local server
+3. `npm run dev` to start the local server
 
 ## Project Structure
 - `app.js` - The entry point to our application
